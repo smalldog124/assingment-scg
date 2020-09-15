@@ -1,0 +1,159 @@
+{
+	"info": {
+		"_postman_id": "1c8ccbf5-f6e3-4c59-b394-dee43bd53ac6",
+		"name": "DOSCG",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "check",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "13cd3d64-5c71-4f98-b366-05332e5bc859",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Massages is already\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.massages).to.eql('already');",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"test\",\n    \"description\": \"test\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{DOSCG}}",
+					"host": [
+						"{{DOSCG}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "  findXYZ",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "36437c8e-4201-465f-99a9-5b5f7f6f20db",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Value X is 1\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.x).to.eql(1);",
+							"});",
+							"pm.test(\"Value Y is 3\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.y).to.eql(3);",
+							"});",
+							"pm.test(\"Value Z is 33\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.z).to.eql(33);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"missing_list\": [\"\",\"\",5,9,15,23,\"\"]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{DOSCG_URL}}/api/doscg/getXYZ",
+					"host": [
+						"{{DOSCG_URL}}"
+					],
+					"path": [
+						"api",
+						"doscg",
+						"getXYZ"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findBC",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "32d55309-20f1-4e2f-b08c-f082007a0a57",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Value B is \", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.b).to.eql(2);",
+							"});",
+							"pm.test(\"Value C is \", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.c).to.eql(-42);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"a\":21,\n\t\"ans_b\":23,\n\t\"ans_c\":-21\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{DOSCG_URL}}/api/doscg/getBC",
+					"host": [
+						"{{DOSCG_URL}}"
+					],
+					"path": [
+						"api",
+						"doscg",
+						"getBC"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
