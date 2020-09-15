@@ -42,9 +42,12 @@
 					}
 				},
 				"url": {
-					"raw": "{{DOSCG}}",
+					"raw": "{{DOSCG_URL}}/",
 					"host": [
-						"{{DOSCG}}"
+						"{{DOSCG_URL}}"
+					],
+					"path": [
+						""
 					]
 				}
 			},
