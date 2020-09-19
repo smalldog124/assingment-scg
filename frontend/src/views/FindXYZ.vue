@@ -1,7 +1,7 @@
 <template>
   <div>
     <h3>X, Y, 5, 9, 15, 23, Z - Please create a new function for finding X, Y, Z value</h3>
-    <button @click="getXYZ">Anser</button>
+    <button id="getXYZ" @click="getXYZ">Anser</button>
     <div id="anser">
       X: {{ x }}
       <br />

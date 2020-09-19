@@ -1,7 +1,7 @@
 <template>
   <div>
     <h3>If A = 21, A + B = 23, A + C = -21 - Please create a new function for finding B and C value</h3>
-    <button @click="getBC">Anser</button>
+    <button id="getBC" @click="getBC">Anser</button>
     <div id="anser">
       B: {{ b }}
       <br />
