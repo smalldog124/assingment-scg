@@ -1,0 +1,332 @@
+{
+    "geocoded_waypoints": [
+        {
+            "geocoder_status": "OK",
+            "place_id": "ChIJP5n1qHOc4jAR2be0bgyRl9o",
+            "types": [
+                "establishment",
+                "gym",
+                "health",
+                "point_of_interest"
+            ]
+        },
+        {
+            "geocoder_status": "OK",
+            "place_id": "ChIJ4VX0ws-e4jARBGaQ2IACrcQ",
+            "types": [
+                "establishment",
+                "point_of_interest",
+                "shopping_mall"
+            ]
+        }
+    ],
+    "routes": [
+        {
+            "bounds": {
+                "northeast": {
+                    "lat": 13.8058592,
+                    "lng": 100.5411015
+                },
+                "southwest": {
+                    "lat": 13.7464658,
+                    "lng": 100.5205816
+                }
+            },
+            "copyrights": "Map data ©2020 Google",
+            "legs": [
+                {
+                    "distance": {
+                        "text": "9.0 km",
+                        "value": 9012
+                    },
+                    "duration": {
+                        "text": "21 mins",
+                        "value": 1288
+                    },
+                    "end_address": "999/9 Rama I Rd, Khwaeng Pathum Wan, Khet Pathum Wan, Krung Thep Maha Nakhon 10330, Thailand",
+                    "end_location": {
+                        "lat": 13.7464658,
+                        "lng": 100.5405251
+                    },
+                    "start_address": "1 Siam Cement Alley, Khwaeng Bang Sue, Khet Bang Sue, Krung Thep Maha Nakhon 10800, Thailand",
+                    "start_location": {
+                        "lat": 13.8058592,
+                        "lng": 100.5373359
+                    },
+                    "steps": [
+                        {
+                            "distance": {
+                                "text": "0.2 km",
+                                "value": 208
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 81
+                            },
+                            "end_location": {
+                                "lat": 13.8048426,
+                                "lng": 100.537431
+                            },
+                            "html_instructions": "Head <b>southwest</b><div style=\"font-size:0.9em\">Restricted usage road</div>",
+                            "polyline": {
+                                "points": "smgsAkesdRVJCFENELCHAD?@?@?@vAd@JB@@D?D?HA@ADABADGDGHML]J[Pe@"
+                            },
+                            "start_location": {
+                                "lat": 13.8058592,
+                                "lng": 100.5373359
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "61 m",
+                                "value": 61
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 46
+                            },
+                            "end_location": {
+                                "lat": 13.8044003,
+                                "lng": 100.5372173
+                            },
+                            "html_instructions": "Turn <b>right</b><div style=\"font-size:0.9em\">Restricted usage road</div>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "gggsA}esdRBI`A^JHBD@B"
+                            },
+                            "start_location": {
+                                "lat": 13.8048426,
+                                "lng": 100.537431
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.1 km",
+                                "value": 142
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 41
+                            },
+                            "end_location": {
+                                "lat": 13.8044242,
+                                "lng": 100.5361833
+                            },
+                            "html_instructions": "Turn <b>right</b> toward <b>ซอย ปูนซีเมนต์ไทย ถนนหน้าบ้าน</b><div style=\"font-size:0.9em\">Partial restricted usage road</div>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "odgsAsdsdR?BAJQb@e@t@K^AD?H@HDDFBLHd@V"
+                            },
+                            "start_location": {
+                                "lat": 13.8044003,
+                                "lng": 100.5372173
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.2 km",
+                                "value": 162
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 22
+                            },
+                            "end_location": {
+                                "lat": 13.8037604,
+                                "lng": 100.5375042
+                            },
+                            "html_instructions": "Turn <b>left</b> onto <b>ซอย ปูนซีเมนต์ไทย ถนนหน้าบ้าน</b>",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "sdgsAc~rdR@G@Gd@qAXy@^iAFIDGFGHG"
+                            },
+                            "start_location": {
+                                "lat": 13.8044242,
+                                "lng": 100.5361833
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.2 km",
+                                "value": 201
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 23
+                            },
+                            "end_location": {
+                                "lat": 13.8029809,
+                                "lng": 100.5391763
+                            },
+                            "html_instructions": "Slight <b>left</b> onto <b>ซอย ปูนซีเมนต์ไทย</b>",
+                            "maneuver": "turn-slight-left",
+                            "polyline": {
+                                "points": "o`gsAkfsdRLY~@sCDSFSDQFQd@cAFMBC"
+                            },
+                            "start_location": {
+                                "lat": 13.8037604,
+                                "lng": 100.5375042
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "3.2 km",
+                                "value": 3213
+                            },
+                            "duration": {
+                                "text": "6 mins",
+                                "value": 383
+                            },
+                            "end_location": {
+                                "lat": 13.776158,
+                                "lng": 100.5284465
+                            },
+                            "html_instructions": "<b>ซอย ปูนซีเมนต์ไทย</b> turns slightly <b>right</b> and becomes <b>ถนน เทอดดำริห์</b>/<wbr/><b>เทอดดำริห์</b><div style=\"font-size:0.9em\">Continue to follow เทอดดำริห์</div><div style=\"font-size:0.9em\">Pass by La Cantine (on the right in 1.9&nbsp;km)</div>",
+                            "polyline": {
+                                "points": "s{fsA{psdR@ABABAFAB?B?B?B@D?@@F@PFjBf@jF~AZH\\L`IzBbAZ`@JdCr@j@TNF@?LFbA^`@XVPb@TdBl@fCt@vCdAzAf@jCx@|A`@xAXXA`@LJD`@RJFLHZLVJv@RPHRHXHTDj@Lt@PjDbAxBn@hExAx@PD@^JD@~@\\xAd@JD|@VzBn@`EpA~DpA^J^Jj@Nj@Np@NVFVFB@|A`@rA^NBNDVHf@NXHRFBBRFPF~@ZxAf@j@^fA\\P@H@B@N?l@B\\BJ@l@PnA^\\Jz@VbCx@PBPBl@Pn@TLDHBF@"
+                            },
+                            "start_location": {
+                                "lat": 13.8029809,
+                                "lng": 100.5391763
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "2.3 km",
+                                "value": 2255
+                            },
+                            "duration": {
+                                "text": "6 mins",
+                                "value": 330
+                            },
+                            "end_location": {
+                                "lat": 13.757397,
+                                "lng": 100.5205816
+                            },
+                            "html_instructions": "Continue onto <b>ถนน สวรรคโลก</b>",
+                            "polyline": {
+                                "points": "_tasAymqdRPHPHHDHBPJTPFBDDHF@?DBZJbA\\RFZHNF@?PDRH\\Jb@Lb@Nd@Nd@NRHVNXHXJNDd@NJD^J~@VPFjA\\vAb@D@~@Zd@NJBDBJBJDPDNDFBF@NDRFD@RFjCv@lCv@|Bp@dXbI|C|@b@LZJPF~C`AhA\\hA\\nA`@nA^FBF@jA\\hA\\`Bf@xAd@H@zAd@B@XHhAb@RHPHVN"
+                            },
+                            "start_location": {
+                                "lat": 13.776158,
+                                "lng": 100.5284465
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "1.0 km",
+                                "value": 1047
+                            },
+                            "duration": {
+                                "text": "2 mins",
+                                "value": 145
+                            },
+                            "end_location": {
+                                "lat": 13.7540264,
+                                "lng": 100.5295897
+                            },
+                            "html_instructions": "Turn <b>left</b> at <b>แยก ยมราช</b> onto <b>ถนน เพชรบุรี</b>",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "w~}rAs|odRP[P]@CBE?C@C@ABGDMDKDSBIBIPs@Ja@La@J_@R_ABGPu@BGBM@CFEFW@ABMJ]H]FU@I@??A@GDM@G@O@C?A?A@IV[Je@Je@J_@J_@@GBGFSPq@FSJa@DMBMVcAT_ADK\\sADSFQn@gCR{@DODUFUDQBIBKZmAJa@Le@Nk@BOJa@"
+                            },
+                            "start_location": {
+                                "lat": 13.757397,
+                                "lng": 100.5205816
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "1.1 km",
+                                "value": 1052
+                            },
+                            "duration": {
+                                "text": "2 mins",
+                                "value": 92
+                            },
+                            "end_location": {
+                                "lat": 13.7507675,
+                                "lng": 100.5387288
+                            },
+                            "html_instructions": "Keep <b>right</b> to stay on <b>ถนน เพชรบุรี</b>",
+                            "maneuver": "keep-right",
+                            "polyline": {
+                                "points": "ui}rA}tqdRdB}GBMDMPu@Tw@FYFUZgADO@EBKlAaFBE?CNi@TaABMPo@@IH_@Lm@J]DQ@CH[H]T{@RcAT}@R}@Pk@Pi@FQFU@GDOL_@FSDU@CRq@DQFSDM@G@ADQBM@ADS"
+                            },
+                            "start_location": {
+                                "lat": 13.7540264,
+                                "lng": 100.5295897
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.3 km",
+                                "value": 268
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 46
+                            },
+                            "end_location": {
+                                "lat": 13.7500431,
+                                "lng": 100.5410809
+                            },
+                            "html_instructions": "Slight <b>left</b> to stay on <b>ถนน เพชรบุรี</b>",
+                            "maneuver": "turn-slight-left",
+                            "polyline": {
+                                "points": "iu|rAansdRAM?I?E?CH_@FUBMn@iCBKDMDSH_@FSFWDM@E@E@A@G@IPy@@C"
+                            },
+                            "start_location": {
+                                "lat": 13.7507675,
+                                "lng": 100.5387288
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.4 km",
+                                "value": 403
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 79
+                            },
+                            "end_location": {
+                                "lat": 13.7464658,
+                                "lng": 100.5405251
+                            },
+                            "html_instructions": "Turn <b>right</b> at <b>แยก ประตูน้ำ</b> onto <b>ถนน ราชดำริ</b><div style=\"font-size:0.9em\">Destination will be on the right</div>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "wp|rAw|sdRNAPAz@HT@RBD?@?JBl@DhAHJ@J?l@JTDJ@J@R@@?N@`AFvAPLB@?f@FXDD?TBR@"
+                            },
+                            "start_location": {
+                                "lat": 13.7500431,
+                                "lng": 100.5410809
+                            },
+                            "travel_mode": "DRIVING"
+                        }
+                    ],
+                    "traffic_speed_entry": [],
+                    "via_waypoint": []
+                }
+            ],
+            "overview_polyline": {
+                "points": "smgsAkesdRVJIVK^?@vAf@XDTGJOVk@\\aABI`A^NN@FSn@e@t@K^ANFNTLd@V@Gf@yAx@cC^a@lAmDLg@Lc@l@qALIRARDhJnC~LnDfD~@z@\\NFbA^`@Xz@f@dBl@fCt@rFlBjCx@|A`@xAXXAl@RvAr@nA^d@RpCn@dHrBhExAx@Pd@LdA^~GrB`KbD~@V`Dv@lEjAdD`ApAb@xAf@j@^xA^LB|@Bh@DvEtAbCx@PB~@TnA`@v@\\t@f@l@VbCv@xExAj@Xr@T`Bf@lJrChn@zQdP`FfMvDzBx@h@Xb@y@DML[jAkEl@eCDQFEFWDOT{@Ja@Ls@@KV[Je@VeALg@d@aBl@aCpCyKpAiF`Ig[h@}Bj@gCfBkHd@iBX{@\\mAv@sCLi@FUAWP_A|@qDj@{BVoANAPAz@Hh@DF?bCRzARl@DpAHdBThALh@D"
+            },
+            "summary": "เทอดดำริห์, ถนน สวรรคโลก and ถนน เพชรบุรี",
+            "warnings": [],
+            "waypoint_order": []
+        }
+    ],
+    "status": "OK"
+}
