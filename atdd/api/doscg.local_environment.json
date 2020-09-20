@@ -1,0 +1,14 @@
+{
+	"id": "58df7dff-2398-4f1c-bb26-8aa94e971fb0",
+	"name": "doscg",
+	"values": [
+		{
+			"key": "DOSCG_URL",
+			"value": "http://localhost:3000",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2020-09-20T04:14:57.223Z",
+	"_postman_exported_using": "Postman/7.32.0"
+}
