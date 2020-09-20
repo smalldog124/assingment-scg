@@ -1,6 +1,9 @@
 <template>
   <div>
-    <h3>If A = 21, A + B = 23, A + C = -21 - Please create a new function for finding B and C value</h3>
+    <h3>
+      If A = 21, A + B = 23, A + C = -21 - Please create a new function for
+      finding B and C value
+    </h3>
     <button id="getBC" @click="getBC">Anser</button>
     <div id="anser">
       B: {{ b }}
@@ -28,7 +31,7 @@ export default {
         ans_b: 23,
         ans_c: -21
       };
-      axios.post("http://localhost:3000/api/doscg/getBC", body).then(res => {
+      axios.post("/api/doscg/getBC", body).then(res => {
         this.b = res.data.b;
         this.c = res.data.c;
       });
