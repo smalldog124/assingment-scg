@@ -1,0 +1,27 @@
+version: '3'
+services:
+  web:
+    container_name: web
+    build:
+      context: frontend
+    image: "doscg-web:0.0.1"
+    ports:
+      - "8080:80"
+  service:
+    container_name: service
+    image: "doscg-service:0.0.1"
+    build:
+      context: backend
+    ports:
+      - "3000:3000"
+    environment: 
+      GGKEY: $SECRET_KEY
+      GGENPONT: http://stubs:8000
+
+  stubs:
+    container_name: stubs
+    image: "doscg-stub:0.0.1"
+    build: 
+      context: stub
+    ports: 
+      - "8000:8000"
