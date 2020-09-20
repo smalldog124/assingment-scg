@@ -1,8 +1,9 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
 import About from "../views/About.vue";
-import FindXYZ from "../views/FindXYZ.vue"
-import FindBC from "../views/FindBC.vue"
+import FindXYZ from "../views/FindXYZ.vue";
+import FindBC from "../views/FindBC.vue";
+import Getroute from "../views/GetRoute.vue"
 
 const routes = [
   {
@@ -19,6 +20,11 @@ const routes = [
     path: "/FindBC",
     name: "FindBC",
     component: FindBC
+  },
+  {
+    path: "/Getroute",
+    name: "Getroute",
+    component: Getroute
   },
   {
     path: "/about",

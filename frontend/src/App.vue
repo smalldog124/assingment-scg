@@ -1,9 +1,10 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/FindXYZ">FindXYZ</router-link> |
-    <router-link to="/FindBC">FindBC</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link id="home-page" to="/">Home</router-link> |
+    <router-link id="find-xyz-page" to="/FindXYZ">FindXYZ</router-link> |
+    <router-link id="find-bc-page" to="/FindBC">FindBC</router-link> |
+    <router-link id="getroit-page" to="/Getroute">Getroute</router-link> |
+    <router-link id="about-page" to="/about">About me</router-link>
   </div>
   <router-view />
 </template>
