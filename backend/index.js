@@ -1,6 +1,7 @@
 const express = require('express');
 const axios = require('axios').default;
 const getXYZ = require('./getXYZ.js');
+const getBC = require('./getBC.js');
 
 const app = express();
 app.use(express.json());
@@ -22,7 +23,7 @@ app.post('/api/doscg/getXYZ', (req, res) => {
 
 app.post('/api/doscg/getBC', (req, res) => {
     const body = req.body;
-    res.status(200).json({ b: 2, c: -42 })
+    res.status(200).json(getBC(body));
 })
 
 app.post('/api/doscg/getRoute', (req, res) => {
