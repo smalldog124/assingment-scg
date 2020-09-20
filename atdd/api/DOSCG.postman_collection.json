@@ -156,6 +156,52 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "get rount",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "f699cdfd-47d2-4222-9399-01197b8bca1f",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"geocoder_status is OK\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.geocoded_waypoints[0].geocoder_status).to.eql(\"OK\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"origin\": \"SCG\",\n    \"destination\": \"cental\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{DOSCG_URL}}/api/doscg/getRoute",
+					"host": [
+						"{{DOSCG_URL}}"
+					],
+					"path": [
+						"api",
+						"doscg",
+						"getRoute"
+					]
+				}
+			},
+			"response": []
 		}
 	],
 	"protocolProfileBehavior": {}
